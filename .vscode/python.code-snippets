@@ -1,0 +1,31 @@
+{
+	"HEADER": {
+		"prefix": "header",
+		"body": [
+			"#!/usr/bin/env python",
+			"# -*- encoding: utf-8 -*-",
+			"'''",
+			"@File    :   $TM_FILENAME",
+			"@Time    :   $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+			"@Author  :   Jeffrey Wang",
+			"@Version :   1.0",
+			"@Contact :   shwangjj@163.com",
+			"@Desc    :   None",
+			"'''",
+			"",
+			"# here put the import lib",
+			"$0"
+		],
+	},
+	"DEF": {
+		"prefix": "def",
+		"body": [
+			"def $1($2):",
+			"    \"\"\"",
+			"    param $2:",
+			"    return:",
+			"    \"\"\"",
+			"    $0"
+		],
+	}
+}
