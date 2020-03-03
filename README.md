@@ -1,0 +1,2 @@
+# python_unittest_codepool
+使用Python原生单元测试组件unittest的代码示例项目
